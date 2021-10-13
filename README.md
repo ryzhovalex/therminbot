@@ -1,2 +1,2 @@
-Thermin Bot
+Therminbot
 ===
