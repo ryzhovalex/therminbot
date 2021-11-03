@@ -1,4 +1,4 @@
-from ...helpers.singleton import Singleton
+from warepy import Singleton
 
 
 class Domain(metaclass=Singleton):

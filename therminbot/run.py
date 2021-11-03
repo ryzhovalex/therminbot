@@ -1,5 +1,5 @@
 """Program to run thermin directly."""
-from helpers.assembler import Assembler
+from .helpers.assembler import Assembler
 
 
 def main() -> None:
