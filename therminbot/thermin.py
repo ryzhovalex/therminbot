@@ -1,12 +1,7 @@
-import os
-
-from warepy import logger
 from aiogram import Bot, Dispatcher, executor, types
 
-from .domain import Domain
 
-
-class Thermin(Domain):
+class Thermin:
     """Core bot based on Aiogram.
     
     Attributes:
