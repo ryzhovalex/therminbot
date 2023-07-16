@@ -1,3 +1,0 @@
-include MANIFEST.in
-graft therminbot
-global-exclude __pycache__

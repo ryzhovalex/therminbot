@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "therminbot"
+version = "0.1.0"
+description = "Multifunctional human-friendly 20% sarcastic bot."
+authors = ["ryzhovalex <thed4rkof@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.4"
+orwynn = "1.0.0rc3"
+aiofiles = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
