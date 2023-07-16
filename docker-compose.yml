@@ -1,0 +1,10 @@
+# https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
+#
+version: '3'
+services:
+  therminbot:
+    build: .
+    container_name: therminbot
+    restart: unless-stopped
+    ports:
+      - 4100:4100
